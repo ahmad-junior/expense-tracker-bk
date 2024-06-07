@@ -45,13 +45,16 @@ env\Scripts\activate
 poetry install --no-root
 ```
 
-6. Migration
+6. Environment Variables
+Create a `.env` file in the root directory of the project and copy the content of `.env.example` file to `.env` file. You can change the values of the variables according to your need.
+
+7. Migration
 
 ```
 python manage.py migrate
 ```
 
-7. Run the server
+8. Run the server
 
 ```
 python manage.py runserver
